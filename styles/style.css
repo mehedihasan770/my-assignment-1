@@ -176,3 +176,37 @@ nav button{
 .Name-and-Date p{
     opacity: 50%;
 }
+.focus-Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 1140px;
+    background-color:rgba(77, 71, 255, 0.103);
+    margin: 137px auto;
+    text-align: center;
+    border-radius: 14px;
+}
+.focus-Section h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.focus-Section p{
+    margin-top: 20px;
+    opacity: 50%;
+}
+.focus-Section button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    height: 48px;
+    width: 195px;
+    color: #ffffff;
+    font-weight: 500px;
+}
+.focus-Section img{
+    margin-top: 20px;
+    border-radius: 48px;
+}
