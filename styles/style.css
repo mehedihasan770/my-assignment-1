@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* buttons color */
+button{
+    background-color: #4E47FF;
+}
+
+
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    height: 698px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1700Px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+nav h1{
+    font-size: 34px;
+    color: #4E47FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+nav button{
+    width: 132px;
+    height: 48px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+
+}
