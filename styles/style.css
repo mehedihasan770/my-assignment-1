@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    scrollbar-width: none;
 }
 /* buttons color */
 button{
@@ -209,4 +210,65 @@ nav button{
 .focus-Section img{
     margin-top: 20px;
     border-radius: 48px;
+}
+.logine-page-section{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: 120px auto;
+    padding: 71px 0px;
+}
+.login-title{
+    width: 528px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.logine-page{
+    display: flex;
+    flex-direction: column;
+}
+.logine-page input{
+    margin: 10px 0 20px 0;
+    padding: 20px 40px 20px 20px;
+    width: 450px;
+    border: none;
+    background-color:rgba(77, 71, 255, 0.103);
+    outline: none;
+    border-radius: 10px;
+}
+.logine-page textarea{
+    padding: 20px 40px 20px 20px;
+    margin: 10px 0 20px 0;
+    border: none;
+    background-color:rgba(77, 71, 255, 0.103);
+    outline: none;
+    border-radius: 10px;
+    resize: none;
+    overflow: scroll;
+    scrollbar-width: none;
+    
+}
+.logine-page button{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.Footer-Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 428px;
+    background-color:rgba(77, 71, 255, 0.103);   
+}
+.Website-name{
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4E47FF;
+    font-weight: bolder;
+}
+.Subtitle{
+    
 }
