@@ -13,6 +13,13 @@ button{
 .text-color{
     color: #252432;
 }
+button:hover{
+    transform: scale(1.1);
+    transform-style: flat;
+    transition-duration: 1s;
+    background-color: #0800ff;
+    cursor: pointer;
+}
 
 
 header{
@@ -256,13 +263,6 @@ nav button{
     color: #ffffff;
     font-weight: bold;
     transition-duration: 1s;
-}
-button:hover{
-    transform: scale(1.1);
-    transform-style: flat;
-    transition-duration: 1s;
-    background-color: #0800ff;
-    cursor: pointer;
 }
 .Footer-Section{
     display: flex;
