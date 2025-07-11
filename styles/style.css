@@ -29,7 +29,7 @@ nav{
 nav h1{
     font-size: 34px;
     color: #4E47FF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
 }
 nav button{
@@ -263,12 +263,28 @@ nav button{
     height: 428px;
     background-color:rgba(77, 71, 255, 0.103);   
 }
-.Website-name{
+.Website-name-Subtitle{
     font-size: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #4E47FF;
     font-weight: bolder;
 }
 .Subtitle{
-    
+    text-align: center;
+    width: 500px;
+    margin: 15px 0 20px 0;
+    opacity: 50%;
+    line-height: 20px;
+}
+.Services-links ul{
+    display: flex;
+}
+.Services-links ul{
+    list-style: none;
+}
+.Services-links a{
+    margin: 20px;
+    color: #000000;
+    opacity: 50%;
+    text-decoration: none;
 }
